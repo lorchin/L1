@@ -1,9 +1,10 @@
-<!TEST html>
-<html>
-  <head>
-  	<title>TEST</title>
-  <body>
-  	<h1 class="My first code"></h1>
-  </body>
-  </head>
+<!DOCTYPE html>
+ <html lang="en-us">
+   <head>
+   	<title>TEST</title>
+   </head>
+   <body>
+   	<h1 class="My-first-code">MY FIRST CODE
+    </h1>
+   </body>
 </html>

@@ -5,20 +5,153 @@ a {
 h1, h2, p {
 	color: #45474b;
 }
+.author {
+	color: #da8913;
+	font-family: 'Amiri', serif
+}
+.homepage {
+	margin: 0;
+}
+.container {
+	background-color: white;
+    box-shadow: 0 3px 7px 2px  rgba(16, 45, 53, 0.25);
+    width: 1210px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+	font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    vertical-align: middle;
+    position: fixed;
+    z-index: 500;
+    right: auto;
+}
+.header-nav {
+	padding: 0 10px 0 0;
+}
 .header-nav .profie-link {
-	height: 40px;
-	width: 40px;
+	height: 30px;
+	width: 30px;
 	border-radius: 50%;
 	overflow: hidden;
 }
-ul.header-menu {
-	text-transform: uppercase;
+.logo {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 15px;
 }
-ul {
+.header-menu {
+	text-transform: uppercase;
+	vertical-align: middle;
 	list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 0px;
+    padding: 0 10px 0 105px;
+    display: inline-block;
+    text-align: center;
+}
+.header-menu li {
+    display: inline-block;
+    padding: 0 19px;
+    margin: 0 0;
+    vertical-align: middle;
+}
+ul:before {
+	content: '';
+	height: 100%;
+	display: inline-block;
 }
 li {
-    display: inline;
+    display: inline-block;
+    padding: 0 5px 0 10px;
+    margin: 0 5px;
+    vertical-align: middle;
+}
+.header-icons-container {
+    display: inline-block;
+    padding: 0 0 0 90px;
+    margin: 0 0px;
+    list-style: none;
+    vertical-align: middle;
+}
+/*.header-icons-container li {
+    display: inline-block;
+    padding: 0 19px;
+    margin: 0 0px;
+    vertical-align: middle;
+}    */
+
+ul:before, li {
+	vertical-align: middle;
+}
+.slider1 {
+	background-color: aliceblue;
+}
+.slider1-book {
+	padding-top: 229px;
+	margin-left: 225px;
+}
+.slider1-book_back {
+	position: relative;
+	z-index: 1;
+	width: 45%;
+
+}
+.slider1-book_cover {
+    position: absolute;
+    z-index: 2;
+    top: 67px;
+    left: 80px;
+    box-shadow: 0px 27px 45px 2px rgba(23, 39, 43, 0.54);
+}
+
+.slider1-book_genre {
+	position: absolute;
+    z-index: 3;
+    top: -9px;
+    right: -9px;
+    max-width: 190px;
+    background-color: white;
+    padding: 7px 15px;
+    border: 2px solid;
+    border-color: #da8913;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+}
+.slider1-title {
+	position: absolute;
+	top: 129px;
+	left: 558px;
+	width: 450px;
+	line-height: 1;
+	font-family: 'Ramaraja', serif;
+	font-size: 57px;
+}
+.description .author {
+	color: #da8913;
+	width: fit-content;
+    font-family: 'Amiri', serif;
+    font-size: 21px;
+    line-height: 58px;
+}
+.description {
+	width: 400px;
+    font-size: 23px;
+    font-family: 'Yrsa', serif;
+}
+.table1, .table2 {
+	background-color: aliceblue;
+	width: 533px;
+	height: 212px;
+	display: inline-block;
+	margin-top: 125px;
+	margin-bottom: 122px;
+}
+.table1 {
+	float: left;
+	margin-left: 135px;
+}
+.table2 {
+	float: right;
+	margin-right: 135px;
 }
